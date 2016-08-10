@@ -11,4 +11,5 @@ EXPOSE 5000
 COPY /app /app
 
 # Start the app
-ENTRYPOINT dotnet limadockersimple.dll
+#ENTRYPOINT dotnet limadockersimple.dll
+ENTRYPOINT ["/bin/bash", "-c", "dotnet limadockersimple.dll"]
