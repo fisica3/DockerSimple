@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5ACB8362-9B50-483B-B459-41CF66D4FC3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{513039BD-66DB-44F2-AB05-FF3ECE791E6E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "limadockersimple", "src\limadockersimple\limadockersimple.xproj", "{05ADBBB6-7966-485C-9C8B-C9936FDFE298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05ADBBB6-7966-485C-9C8B-C9936FDFE298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05ADBBB6-7966-485C-9C8B-C9936FDFE298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05ADBBB6-7966-485C-9C8B-C9936FDFE298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05ADBBB6-7966-485C-9C8B-C9936FDFE298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05ADBBB6-7966-485C-9C8B-C9936FDFE298} = {5ACB8362-9B50-483B-B459-41CF66D4FC3E}
+	EndGlobalSection
+EndGlobal
